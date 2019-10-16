@@ -1,0 +1,607 @@
+/* CORPS */
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(172, 255, 47, 0.705);
+}
+
+header {
+    background-color: rgb(156, 198, 233);
+    width: 100%;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: rgb(156, 198, 233);
+    width: 100%;
+    height: 150px;
+}
+
+/* SECTION */
+.section1 {
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+}
+
+.section2 {
+    width: 80%;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    margin-left: 125px;
+}
+
+/* ARTICLE */
+.article {
+    width: 60%;
+    height: 600px;
+    background-color: rgba(122, 43, 226, 0.685);
+}
+
+
+/* TEXTE */
+p {
+    text-align: center;
+    padding-right:30px ;
+    padding-left: 30px ;
+}
+
+.p4{
+    font-size: 300%;
+    height: 30px;
+    font-family: cursive;
+    text-shadow: ;
+}
+
+/* ALIGNEMENT ET PADDING */
+.alic {
+    text-align: center;
+}
+
+.p1 {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.p3 {
+    text-align: center;
+}
+
+.alidr {
+    width: 40%;
+    height: 600px;
+    text-align: left;
+}
+
+.alidr2 {
+    width: 20%;
+    height: 600px;
+    text-align: center;
+}
+
+/* LIEN CLIQUABLE */
+a:link {
+    text-decoration: none;
+}
+
+/* COULEUR DIV BACKGROUND */
+.col0 {
+    background-color: rgba(255, 235, 205, 0.383);
+}
+
+.col1 {
+    background-color: rgba(255, 102, 0, 0.301);
+}
+
+.col2 {
+    background-color: rgba(164, 224, 68, 0.452);
+}
+
+/* TEXTE MUS IQUE */
+.mus {
+    font-size: 108px;
+    text-align: right;
+    color: rgba(165, 42, 42, 0.835);
+    text-shadow: 2px 2px 2px black;
+}
+
+/* OMBRES */
+.shad {
+    box-shadow: 8px 8px 12px rgba(63, 63, 63, 0.507);
+}
+
+/* MODIFICATION SECTION  */
+
+.retr {
+    width: 90%;
+    height: 80%;
+    background-image: linear-gradient(rgba(165, 42, 42, 0.794), rgba(104, 34, 34, 0.87));
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 34px;
+    padding-left: 34px;
+    padding-right: 34px;
+    border-radius: 2em;
+}
+
+.retr2 {
+    width: 90%;
+    height: 80%;
+    background-color: rgba(165, 42, 114, 0.733);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: px;
+    padding-right: px;
+}
+
+/* TAILLE DIV SECTION CATEGORIES MUSIQUE */
+
+.divCase {
+    height: 200px;
+    width: 200px;
+    background-color: ;
+    margin-top: 34px;
+    border-radius: 2em;
+}
+
+.divCase2 {
+    height: 200px;
+    width: 200px;
+    background-color: ;
+    margin-top: 50px;
+    border-radius: 2em;
+}
+
+/* DIFFERENTS FLEX ROW COLUMN... DANS SECTION */
+
+.divflex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.divflex2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.divflex3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/* DIV DANS SECTION, TAILLE COULEUR... */
+.div1 {
+    width: 10%;
+    height: 80px;
+    background-color: rgb(199, 92, 92);
+    border: 1px black solid;
+}
+
+.div1bis {
+    width: 65%;
+    height: 80px;
+    margin-left: 80px;
+    background-color: rgb(199, 92, 92);
+    border: 1px black solid;
+}
+
+.div2 {
+    width: 50%;
+    height: 400px;
+    background-color: rgb(255, 94, 0);
+    border: 1px black solid;
+}
+
+.div3 {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 255, 213);
+}
+
+.div4 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(0, 68, 255);
+    border: 1px black solid;
+}
+
+.div5 {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(255, 0, 212);
+}
+
+.div6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 55);
+    border: 1px black solid;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* SAUT ET ECARTEMENTS */
+.saut {
+    margin-bottom: 100px;
+}
+
+.saut2 {
+    margin-bottom: 120px;
+}
+
+.saut3 {
+    margin-bottom: 180px;
+}
+
+/* DIV */
+.divbis1 {
+    width: 100%;
+    height: 49.7%;
+    background-color: bisque;
+    border: 1px black solid;
+}
+
+/* DIV LECTEUR AUDIO */
+.divtab {
+    width: 50%;
+    height: 448px;
+    background-color: bisque;
+    border: 1px black solid;
+    margin-left: 248px;
+}
+
+
+/* image Vinyls */
+.img1 {
+    width: 200px;
+    height: 200px;
+    opacity: 0.75;
+}
+
+/* image alicia keys */
+.img2 {
+    width: 300px;
+    height: 220px;
+}
+
+/* image disco */
+
+.img3 {
+    background-image: url("disco2.jpg");
+    height: 200px;
+    width: 200px;
+    margin-top: 34px;
+    border-radius: 2em;
+    background-size: 200px 200px;
+    border: 2px black solid;
+}
+
+/* image variétés française */
+.img5 {
+    background-image: url("https://bit.ly/2nOobHC");
+    height: 200px;
+    width: 200px;
+    margin-top: 34px;
+    border-radius: 2em;
+    background-size: 200px 200px;
+    border: 2px black solid;
+}
+
+/* image jazz */
+.img6 {
+    background-image: url("jazz.jpg");
+    height: 200px;
+    width: 200px;
+    margin-top: 34px;
+    border-radius: 2em;
+    background-size: 200px 200px;
+    border: 2px black solid;
+}
+
+/* image pop */
+.img8 {
+    background-image: url("pop.jpg");
+    height: 200px;
+    width: 200px;
+    margin-top: 34px;
+    border-radius: 2em;
+    background-size: 200px 200px;
+    border: 2px black solid;
+}
+
+/* image rock */
+.img9 {
+    background-image: url("metal.jpg");
+    height: 200px;
+    width: 200px;
+    margin-top: 34px;
+    border-radius: 2em;
+    background-size: 200px 200px;
+    border: 2px black solid;
+}
+
+/* image rap */
+.img10 {
+    background-image: url("rap.jpg");
+    height: 200px;
+    width: 200px;
+    margin-top: 34px;
+    border-radius: 2em;
+    background-size: 200px 200px;
+    border: 2px black solid;
+}
+
+/* ANIMATION TRANSITION COULEUR TRANSPARENCE */
+
+@keyframes transparence {
+    0% {
+        background-color: none;
+    }
+
+    100% {
+        background-color: rgba(247, 203, 82, 0.788);
+    }
+}
+
+.anim1:hover {
+    animation: transparence, trans;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.3s;
+    animation-iteration-count: ;
+    animation-fill-mode: forwards;
+}
+
+/* ANIMATION TRANSITION TRANSFORMATION TAILLE ROTATION */
+@keyframes trans {
+    0% {
+        transform: scale(1, 1) rotate(0deg);
+    }
+
+    60% {
+        transform: scale(1, 1) rotate(360deg);
+    }
+
+    90% {
+        transform: scale(1.25, 1.05) rotate(360deg);
+    }
+
+    100% {
+        transform: scale(1.25, 1.05) rotate(360deg);
+    }
+}
+
+/* deplacement div carré */
+
+@keyframes depl1 {
+
+    0%,
+        {
+        transform: translate(0px, 0px) rotate(360deg);
+    }
+
+    33% {
+        transform: translate(235px, 0px);
+    }
+
+    66% {
+        transform: translate(235px, 235px);
+    }
+
+    100% {
+        transform: translate(0px, 235px);
+    }
+}
+
+@keyframes depl2 {
+
+    0%,
+        {
+        transform: translate(0px, 0px) rotate(360deg);
+    }
+
+    33% {
+        transform: translate(0px, 235px);
+    }
+
+    66% {
+        transform: translate(-235px, 235px);
+    }
+
+    100% {
+        transform: translate(-235px, 0px);
+    }
+}
+
+@keyframes depl3 {
+
+    0%,
+        {
+        transform: translate(0px, 0px) rotate(360deg);
+    }
+
+    33% {
+        transform: translate(-235px, 0px);
+    }
+
+    66% {
+        transform: translate(-235px, -235px);
+    }
+
+    100% {
+        transform: translate(0px, -235px);
+    }
+}
+
+@keyframes depl4 {
+
+    0%,
+        {
+        transform: translate(0px, 0px) rotate(360deg);
+    }
+
+    33% {
+        transform: translate(0px, -235px);
+    }
+
+    66% {
+        transform: translate(235px, -235px);
+    }
+
+    100% {
+        transform: translate(235px, 0px);
+    }
+}
+
+.anim2 {
+    animation: depl1;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.anim3 {
+    animation: depl2;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.anim4 {
+    animation: depl3;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.anim5 {
+    animation: depl4;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* MENU DEROULANT positionnement et déco */
+#déroulant a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+#déroulant>li,
+#déroulant>li li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 163px;
+    padding: 6px 15px;
+    background-color: rgba(252, 135, 120, 0.794);
+    background-image: ;
+}
+
+#déroulant>li li {
+    background: transparent none;
+}
+
+#déroulant>li li a {
+    color: #444;
+}
+
+#déroulant>li li:hover {
+    background: #eee;
+}
+
+#déroulant>li:first-child {
+
+    border-radius: 8px 0 0 8px;
+}
+
+#déroulant>li:last-child {
+    border-right: 0;
+    border-radius: 0 8px 8px 0;
+}
+
+#déroulant>li:hover {
+    background-color: rgba(238, 105, 64, 0.781);
+    background-color: rgba(236, 119, 119, 0.863);
+}
+
+#déroulant ul {
+    position: absolute;
+    top: 2em;
+    left: 0;
+    max-height: 0em;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    background-image: linear-gradient(rgba(255, 177, 177, 0.541), rgba(255, 113, 30, 0.507));
+    overflow: hidden;
+    transition: 1s max-height 0.3s;
+    border-radius: 0 0 8px 8px;
+}
+
+#déroulant>li:hover ul {
+    max-height: 13em;
+}
+
+/* TABLEAUX LECTEUR AUDIO */
+table,
+ {
+    width: 527px;
+    border-collapse: collapse;
+    border: solid 2px black;
+}
+
+th, td{
+    width: 200px;
+    border: solid 2px black;
+}
+
+.td1 {
+    height: 116.5px;
+    text-align: center;
+}
+
+.td2 {
+    height: 97.5px;
+}
+
+
+/* IMAGE ALBUM PETIT FORMAT */
+img {
+    width: 70px;
+    height: 70px;
+}
+
+/* LECTEUR AUDIO */
+audio {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* SLIDER PHOTO  */
