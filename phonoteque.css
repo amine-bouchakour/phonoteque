@@ -16,32 +16,32 @@ body {
 
 /* PAGE STYLE1 COULEUR FOND */
 .body2{
-    background-image: linear-gradient() ;
+    background-image: linear-gradient(rgba(248, 248, 81, 0.788),rgba(235, 72, 72, 0.671),rgba(59, 125, 187, 0.945)) ;
 }
 
 /* PAGE STYLE2 COULEUR FOND */
 .body3{
-    background-image: linear-gradient() ;
+    background-image: linear-gradient(rgba(248, 248, 226, 0.856),rgba(255, 255, 0, 0.685),rgba(255, 166, 0, 0.87)) ;
 }
 
 /* PAGE STYLE3 COULEUR FOND */
 .body4{
-    background-image: linear-gradient() ;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.555),rgba(60, 0, 255, 0.527),rgba(255, 251, 0, 0.835)) ;
 }
 
 /* PAGE STYLE4 COULEUR FOND */
 .body5{
-    background-image: linear-gradient() ;
+    background-image: linear-gradient(rgba(235, 235, 235, 0.507),rgba(4, 4, 196, 0.609),rgba(58, 58, 58, 0.555)) ;
 }
 
 /* PAGE STYLE5 COULEUR FOND */
 .body6{
-    background-image: linear-gradient() ;
+    background-image: linear-gradient(rgba(255, 255, 0, 0.911),grey,rgba(0, 0, 0, 0.726)) ;
 }
 
 /* PAGE STYLE56 COULEUR FOND */
-.body6{
-    background-image: linear-gradient() ;
+.body7{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.657),rgba(255, 255, 255, 0.781),rgba(255, 0, 0, 0.493)) ;
 }
 
 
@@ -128,7 +128,7 @@ p {
 /* NOM DE L'ARTISTE */
 
 .p5t{
-    font-size: 160%;
+    font-size: 370%;
     font-weight: bold;
 
 }
@@ -191,6 +191,14 @@ p {
     text-align: center;
 }
 
+.gr{
+    text-align: center;
+    font-size: 150%;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: cursive;
+}
+
 /* LIEN CLIQUABLE */
 a:link {
     text-decoration: none;
@@ -207,6 +215,18 @@ a:link {
 
 .col2 {
     background-color: rgba(164, 224, 68, 0.452);
+}
+
+.plo{
+    margin-top:50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+
+.plo1{
+    margin-top:50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
 }
 
 /* TEXTE MUS IQUE */
@@ -300,22 +320,21 @@ a:link {
 .div1 {
     width: 115px;
     height: 100px;
-    background-color: rgb(199, 92, 92);
-    border: 1px black solid;
+    background-color: rgb(243, 207, 150);
 }
 
 .div1bis {
     width: 65%;
     height: 80px;
-    margin-left: 100px;
-    background-color: rgb(199, 92, 92);
-    border: 1px black solid;
+    margin-left: 60px;
+    background-color: ;
+   
 }
 
 .div2 {
     width: 50%;
     height: 400px;
-    background-image: linear-gradient(rgb(181, 181, 240),rgba(10, 58, 121, 0.548),rgba(80, 39, 88, 0.911));
+    background-image: linear-gradient(rgb(181, 181, 240),rgba(31, 85, 156, 0.719),rgba(130, 66, 143, 0.911));
     border: 1px black solid;
 }
 
@@ -328,28 +347,28 @@ a:link {
 .div3 {
     width: 100%;
     height: 150px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.774),rgba(4, 141, 253, 0.507),rgba(27, 83, 173, 0.445));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.774),rgba(4, 141, 253, 0.226),rgba(27, 83, 173, 0.445));
     border-radius: 4em;
 }
 
 .div4 {
     width: 100%;
     height: 400px;
-    background-color: rgb(0, 68, 255);
+    background-color: ;
     border: 1px black solid;
 }
 
 .div5 {
     width: 100%;
     height: 450px;
-    background-color: rgba(250, 108, 143, 0.719);
-    border-radius: 6em;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.041),rgba(255, 255, 255, 0.096),rgba(41, 41, 223, 0.308));
+    border-radius: 10em;
 }
 
 .div5bis {
     width: 100%;
     height: 1292.5px;
-    background-color: rgb(255, 0, 212);
+    background-color: ;
 }
 
 .div6 {
@@ -377,14 +396,14 @@ a:link {
 .divbis1 {
     width: 100%;
     height: 30%;
-    background-color: bisque;
+    background-color: ;
     border: 1px black solid;
 }
 
 .divbis1bis {
     width: 100%;
     height: 69%;
-    background-color: bisque;
+    background-color: rgba(255, 226, 190, 0.555);
     border: 1px black solid;
 }
 
@@ -392,7 +411,7 @@ a:link {
 .divtab {
     width: 50%;
     height: 448px;
-    background-color: bisque;
+    background-image: linear-gradient(rgba(225, 235, 137, 0.705),rgba(201, 63, 63, 0.342));
     border: 1px black solid;
     margin-left: 251px;
 }
@@ -400,7 +419,7 @@ a:link {
 .divtabbis {
     width: 50%;
     height: 1291.5px;
-    background-color: bisque;
+    background-image: linear-gradient(rgba(226, 226, 97, 0.945),rgb(185, 110, 48));
     border: 1px black solid;
 }
 
@@ -408,8 +427,14 @@ a:link {
 .divtabbis2 {
     width: 50%;
     height: 1291.5px;
-    background-color: rgb(100, 143, 30);
-    border: 1px black solid;
+    background-color: ;
+}
+
+.cur{
+    font-family: cursive;
+    font-size: small;
+    color:white;
+    box-shadow: #444;
 }
 
 /* image Vinyls */
@@ -665,7 +690,7 @@ a:link {
     animation-fill-mode: forwards;
 }
 
-/* animation icone et div nom artiste */
+/* animation icone CATEGORIES */
 
 @keyframes depldiv1 {
 
@@ -675,19 +700,19 @@ a:link {
     }
 
     25% {
-        transform: translate(54px, 0px) scale(1.05,1.05) rotate(180deg);
+        transform: translate(54px, 0px) scale(1.05,1.05) ;
     }
     50% {
-        transform: translate(108px, -10px) scale(0.85,0.85) rotate(360deg) ;
+        transform: translate(108px, -10px) scale(0.85,0.85)  ;
     }
     75% {
-        transform: translate(54px, 0px) scale(1.05,1.05) rotate(180deg);
+        transform: translate(54px, 0px) scale(1.05,1.05) ;
     }
 }
 
 .anim6 {
     animation: depldiv1;
-    animation-duration: 7s;
+    animation-duration: 15s;
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: infinite;
@@ -718,7 +743,7 @@ a:link {
     animation-fill-mode: forwards;
 }
 
-/* ANIMATION LOGO 1 */
+/* ANIMATION LOGO 1 TWITTER */
 
 @keyframes logo {
 
@@ -727,8 +752,16 @@ a:link {
         transform: translate(0px, 0px) ;
     }
 
+    35% {
+        transform: translate(149px, 0px) rotate(80deg) ;
+    }
+
     50% {
-        transform: translate(298px, 0px) ;
+        transform: translate(298px, 0px) rotate(60deg) ;
+    }
+
+    95% {
+        transform: translate(0px, 0px) rotate(25deg) ;
     }
 }
 
@@ -741,7 +774,7 @@ a:link {
     animation-fill-mode: ;
 }
 
-/* ANIMATION LOGO 2 */
+/* ANIMATION LOGO 2 INSTAGRAM */
 
 @keyframes logo1 {
 
